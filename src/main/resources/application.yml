@@ -1,0 +1,73 @@
+server.port: 8090
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://user:user@cluster0.bo2za.mongodb.net/test?retryWrites=true&w=majority&ssl=true&sslInvalidHostNameAllowed=true
+      port: 27017
+
+media-service:
+  available-media:
+    - the big bang theory
+    - how i met your mother
+    - friends
+    - money heist
+    - parasite
+    - joker
+    - the platform
+    - breaking bad
+    - game of thrones
+    - the godfather
+    - hollywood
+    - maleficent
+    - the irishman
+    - extraction
+    - jojo rabbit
+    - pulp fiction
+    - peaky blinders
+    - sherlock
+    - you
+    - eat pray love
+    - the tourist
+    - lucy
+    - now you see me
+    - house of cards
+    - 6 underground
+    - titanic
+    - avatar
+    - interstellar
+    - the martian
+    - gatsby
+    - gladiator
+    - braveheart
+    - inception
+    - paddington
+    - memento
+    - two and a half men
+    - star wars
+    - the avengers
+    - american sniper
+    - john wick
+    - the invisible guest
+    - locked up
+    - klaus
+    - pretty little liars
+    - knives out
+    - cold pursuit
+    - ice age
+    - shrek 2
+    - despicable me 2
+    - madagascar
+    - the bounty hunter
+    - lolita
+    - forrest gump
+    - midnight in paris
+    - the revenant
+    - gravity
+    - the impossible
+
+  check-frequency: 60000
+
+omdb:
+  apiKey: 69209ae6
+  url: http://www.omdbapi.com
